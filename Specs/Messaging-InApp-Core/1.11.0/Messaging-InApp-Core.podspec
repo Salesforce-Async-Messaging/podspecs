@@ -12,8 +12,8 @@ Pod::Spec.new do |spec|
 
   spec.vendored_frameworks = 'SMIClientCore.xcframework'
 
-  spec.dependency 'Messaging-Multimedia-Common', '1.11.0'
   spec.dependency 'SQLCipher', '>= 4.10.0'
+  spec.dependency 'Messaging-Multimedia-Common', '1.11.0'
 
   spec.requires_arc = true
 end
