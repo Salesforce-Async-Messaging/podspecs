@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
 
   spec.vendored_frameworks = 'SMIMultimediaCore.xcframework'
   spec.dependency 'Messaging-Multimedia-Common', '1.12.0'
-  spec.dependency 'LiveKitClient', '~> 2.11'
+  spec.dependency 'LiveKitClient', '~> 2.11.0'
 
   spec.requires_arc = true
 end
